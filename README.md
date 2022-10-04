@@ -56,4 +56,4 @@ Note: afaik requirements.txt automatically installed the scrapy and many more re
 
 Originally pip install -r requirements.txt was written in this readme but for me that does not needed at all.
 
-### 2. python -m scrapy crawl char_info -o data.
+### 2. python -m scrapy crawl char_info -o data.json
