@@ -1,4 +1,5 @@
 # one-piece-character-data-scraper
+## This is not mine, This is Mr. Cordones' artwork.
 ---
 This project downloads the info for each of the individual canon characters of the Japanese manga series written and illustrated by Eiichiro Oda. [one piece](https://en.wikipedia.org/wiki/One_Piece) listed on https://onepiece.fandom.com/wiki/List_of_Canon_Characters. 
 
@@ -48,10 +49,13 @@ The downloaded info contains the following details of each individual if applies
 Python 3.8.10
 Scrapy 2.5
 
-## How to use
+## Usage
 ```
-git clone git@github.com:JassonCordones/one-piece-chraracter-data-scraper.git
-pip install pip install -r requirements.txt
-scrapy crawl char_info -o data.json
-```
+1. git clone ~
 
+Note: afaik requirements.txt automatically installed the scrapy and many more related packages.
+
+Originally pip install -r requirements.txt was written in this readme but for me that does not needed at all.
+
+2. python -m scrapy crawl char_info -o data.json
+```
