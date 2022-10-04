@@ -50,8 +50,8 @@ The downloaded info contains the following details of each individual if applies
 - Affiliates
 
 ## Requirements
-Python 3.8.10
-Scrapy 2.5
+* Python 3.8.10~
+* Scrapy 2.5~
 
 ## Usage
 ### 1. git clone ~
